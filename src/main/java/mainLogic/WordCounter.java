@@ -71,7 +71,8 @@ public class WordCounter {
 
         }
 
-        resultMap.forEach((word, numberOfDuplicates) -> System.out.println(word + " have - " + numberOfDuplicates + " of duplicates"));
+        resultMap.forEach((word, numberOfDuplicates) ->
+                System.out.println(word + " have - " + numberOfDuplicates + " duplicates"));
 
     }
 
